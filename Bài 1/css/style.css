@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 800px;
+    margin-top: 30px;
+    background: linear-gradient(#7fd7f8, #307aba);
+}
+nav{
+    height: 70px;
+    width: 100%;
+}
+footer{
+    height: 70px;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    border-top: 2px dotted white;
+}
+body{
+    color: aliceblue;
+    font-size: 22px;
+}
+.container .wrapper .content{
+    height: 600px;
+    width: 54%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container .wrapper{
+    display: flex;
+    justify-content: space-between ;
+}
+.container .menu li{
+    height: 70px;
+    width: 170px;
+    list-style: none;
+    text-indent: 30px;
+    line-height: 70px;
+    float: left;
+}
+.container .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.container .menu ul li .h1{
+    margin-left: 120px;
+    font-size: 40px;
+    text-shadow: 0px 0px 20px blue;
+}
+hr{
+    border: none;
+    border-top: 2px dotted white;
+    width: 100%;
+}
+.container .wrapper{
+    height: 660px;
+    width: 100%;
+}
+footer{
+    height: 70px;
+    width: 100%;
+}
+.menu .img-logo {
+    padding-top: 0px;
+    margin-left: 980px;
+}
+
+.container .wrapper .img-sky{
+    width: 42%;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-bottom: 1000px;
+    margin-right: 30px;
+    float: right;
+}
+.container .wrapper .img-sky{
+    margin-top: 50px;
+}
+.container .wrapper .img-sky img{
+    width: 100%;
+    height: 100%;
+}
+.container .wrapper .img-sky h1, h3{
+    color:blue;
+    margin-left: 30px;
+}
+.container .wrapper .img-sky h1{
+    text-shadow: 5px 5px 2px blue;
+}
+.container .wrapper .content .title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container .wrapper .content .desc{
+    margin-bottom: 10px;
+}
+.container .wrapper .content form{
+    margin-left: 35px;
+}
+.container .wrapper .content form label{
+    display: inline-block;
+    width: 250px;
+}
+.container .wrapper .content form select{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 30px;
+    border: 0.5px solid blue;
+    border-radius: 5px;
+}
+.container .wrapper .content form input{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 30px;
+    border: 0.5px solid blue;
+    border-radius: 5px;
+}
+.container .wrapper .content form textarea{
+    margin-left: 15px;
+    width: 300px;
+    margin-top: 5px;
+    border: 0.5px solid blue;
+    border-radius: 5px;
+}
+.container .wrapper .content form .button input{
+    width: 60px;
+    border: 2px dotted black;
+}
+.container .wrapper .content form .button {
+    margin-left: 255px;
+    margin-top: 5px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+} 
